@@ -1,0 +1,77 @@
+body {
+    background-color: #83bbe2; /* Light pastel blue */
+    color: #2c2f54; /* Dark navy text */
+    font-family: "DM Serif Display", serif;
+    text-align: center;
+    font-size: 30px;
+    
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+}
+
+/* Letters start hidden and above */
+.rainfall {
+    display: inline-block;
+  }
+  
+  .rainfall span {
+    display: inline-block;
+    transform: translateY(-20px);
+    opacity: 0;
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+  }
+  
+  /* Trigger the effect when hovering over the parent */
+  .rainfall:hover span {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  /* Staggering effect */
+  .rainfall span:nth-child(1) { transition-delay: 0s; }
+  .rainfall span:nth-child(2) { transition-delay: 0.1s; }
+  .rainfall span:nth-child(3) { transition-delay: 0.2s; }
+  .rainfall span:nth-child(4) { transition-delay: 0.3s; }
+  .rainfall span:nth-child(5) { transition-delay: 0.4s; }
+  .rainfall span:nth-child(6) { transition-delay: 0.5s; }
+  .rainfall span:nth-child(7) { transition-delay: 0.6s; }
+  .rainfall span:nth-child(8) { transition-delay: 0.7s; }
+  .rainfall span:nth-child(9) { transition-delay: 0.8s; }
+
+.slither-text {
+    display: inline-block;
+    transform: translateX(-15px) skewX(-40deg);
+    opacity: 0.5;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+/* Trigger the slithering effect on hover */
+.slither-text:hover {
+    transform: translateX(0) skewX(0deg);
+    opacity: 1;
+}
+
+.link {
+    color: #2c2f54; /* Dark navy color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Optional: makes it stand out */
+    display: inline-block; /* Ensure the element can be transformed */
+    transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Scale effect when hovering */
+.link:hover {
+    transform: scale(1.2); /* Scale up the link */
+    color: #f1a8ff; /* Change color on hover (Tomato red) */
+    text-shadow: 0 0 10px #2c2f54;
+    transition-duration: 1.5s;
+}
+
+/* Optional: Scaling effect on page load */
+body.loaded .link {
+    transform: scale(1); /* Start with the link at normal size */
+}
