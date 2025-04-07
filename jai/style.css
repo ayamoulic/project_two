@@ -22,7 +22,7 @@ body {
     transition: transform 0.4s ease-out, opacity 0.4s ease-out;
 }
 
-/* Hover effect on the 'JAI GURU DEVA OM' text */
+
 .expanding-fade:hover span:nth-child(1) {
     transform: scale(1.2) translate(-14px, 0);
     opacity: 0.8;

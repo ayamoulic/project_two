@@ -14,7 +14,7 @@
         overflow: hidden;
     }
     
-    /* Center the cross-text */
+
     .cross-text {
         position: relative;
         display: inline-block;
@@ -88,11 +88,11 @@
         z-index: 1; 
         display: inline-block;
         text-decoration: none;
-        transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease; /* Ensure smooth transition */
+        transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
     }
     
     .world:hover {
-        transform: scale(1.2); /* Scale the text on hover */
-        color: #f1a8ff; /* Change color */
-        text-shadow: 0 0 10px #2c2f54; /* Add text shadow */
+        transform: scale(1.2); 
+        color: #f1a8ff; 
+        text-shadow: 0 0 10px #2c2f54;
     }
