@@ -14,14 +14,25 @@ body {
     margin: 0;
     overflow: hidden;
 }
+.artist {
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+    color: #291633; 
+    text-align: right; 
+    width: 100%; 
+    padding-right: 52%;
+}
 footer {
     position: absolute;
     bottom: 0; 
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    text-align: center;
-    padding: 10px 0;
+    text-align: right; 
+    width: 100%;
+    padding-right: 52%;
+    padding-bottom: 8%;
+
 
 }
 

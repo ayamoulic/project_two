@@ -3,6 +3,7 @@
 March 16, 2025
 # Project Overview
 This project explores the meaning of community through a set of song lyrics. The lyrics chosen represent the deep connections I have with my closest friends and partner. These friendships have lasted since middle school, and my romantic relationship has thrived for five years. Despite the changes that come with adulthood, these bonds have remained strong.This project visually expresses the bittersweet nostalgia and love I feel for the people who have shaped my life, using motions to portray the emotions tied to these memories.
+The song I chose is titled "Across the Universe", originally by The Beatles but based off Fiona Apple's cover of the song.
 
 # Technical Overview
 This project is built using HTML and CSS in Visual Studio Code, using various animations and transitions to bring the lyrics to life. Effects include:
