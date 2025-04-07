@@ -1,0 +1,56 @@
+body {
+    background-color: #98d4ff; 
+    color: #2c2f54; 
+    font-family: "Allura", cursive;
+    text-align: center;
+    font-size: 80px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+}
+.link {
+    font-family: "Allura", cursive;
+    text-decoration: none;
+    color: #2c2f54;
+}
+.expanding-fade span {
+    display: inline-block;
+    transition: transform 0.4s ease-out, opacity 0.4s ease-out;
+}
+
+/* Hover effect on the 'JAI GURU DEVA OM' text */
+.expanding-fade:hover span:nth-child(1) {
+    transform: scale(1.2) translate(-14px, 0);
+    opacity: 0.8;
+    color: #f1a8ff;
+    text-shadow: 0 0 10px #2c2f54;
+    transition-delay: 0s;
+}
+
+.expanding-fade:hover span:nth-child(2) {
+    transform: scale(1.2);
+    opacity: 0.8;
+    color: #f1a8ff;
+    text-shadow: 0 0 10px #2c2f54;
+    transition-delay: 0.2s;
+}
+
+.expanding-fade:hover span:nth-child(3) {
+    transform: scale(1.2) translate(16px, 0);
+    opacity: 0.8;
+    color: #f1a8ff;
+    text-shadow: 0 0 10px #2c2f54;
+    transition-delay: 0.4s;
+}
+
+.expanding-fade:hover span:nth-child(4) {
+    transform: scale(1.2) translate(26px, 0);
+    opacity: 0.8;
+    color: #f1a8ff;
+    text-shadow: 0 0 10px #2c2f54;
+    transition-delay: 0.6s; 
+}
